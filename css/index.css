@@ -21,6 +21,15 @@
     border-radius: 8px;
     border: none;
 }
+/* button hover */
+.hoverEffect:hover{
+    transition: .37s;
+    transform: scale(1.09);
+    background-color: rgb(233, 233, 109);
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
 .useer-item-style{
     font-size: 80px;
     font-weight: bold;
@@ -263,3 +272,4 @@ input[type="text"],input[type="email"]{
     font-size: 16px;
     color: #8987A1;
 }
+
