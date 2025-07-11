@@ -1,10 +1,10 @@
+ 
 /* shered styles */
 
 
 .inter-styles {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 33;
   font-style: normal;
 }
 
@@ -132,4 +132,54 @@ header{
     padding: 0;
     font-size: 20px;
     color: rgba(0,0,0,.4);
+}
+
+/* Get in touch section style */
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 92px 150px;
+    padding: 70px 0;
+    background-color: rgba(218, 255, 253, 0.182);
+}
+
+.get-in-touch-title{
+    padding: 120px 0;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 120%;
+}
+.item-form{
+    padding: 75px 0;
+    gap: 25px;
+}
+label{
+    font-size: 18px;
+    font-weight: medium;
+    color: #000000;
+}
+input[type="text"],input[type="email"]{
+    display: block;
+    width: 497px;
+    font-size: 20px;
+    color: rgba(0,0,0,.9);
+    border-radius: 10px;
+    padding: 32px 20px;
+    border: 1px solid rgba(225, 218, 218, 0.566);
+}
+#message{
+    height: 200px;
+}
+.item-form-btn{
+    margin-top: 20PX;
+    width: 497px;
+    color: #ffffff;
+    padding: 19px 101px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
 }
